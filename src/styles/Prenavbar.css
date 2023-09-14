@@ -1,0 +1,37 @@
+
+.prenav{
+    display:grid;
+    grid-template-columns: 5fr 2fr;
+    background-color: rgb(19, 18, 18);
+    color: azure;
+  
+   
+;
+
+  
+   
+
+}
+.prenav div{
+    
+padding: 0 4vmax;
+display: flex;
+align-items: center;
+}
+.prenav div span{
+    font-size: 0.8vmax;
+    font-weight:100
+}
+.prenav div a svg{
+    fill: rgb(194, 191, 187);
+}
+.prenav div a{
+    color: rgb(194, 191, 187);
+    font-size: 1vmax;
+    font-weight: 300;
+    margin:1vmax;
+text-decoration: none;
+}
+.prenav div a:hover{
+    color: white;
+}

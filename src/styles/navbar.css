@@ -1,0 +1,42 @@
+.nav{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1vmax;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+}
+.logo{
+    background-color:orangered;
+    position: relative;
+    overflow: hidden;
+    width:58px;
+    right: 2vmax;
+
+}
+.searchbox{
+    position:relative;
+    left:5vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    font-weight: 100;
+    width: 15vmax;
+}
+#logoimage{
+    transition: 0.2s;
+    transform: translateX(-58px);
+}
+#logoimage:hover{
+    transform: translateX(0);
+}
+.navlinks{
+   color:gray;
+   text-decoration: none;
+   margin:1vmax 1.2vmax;
+   font-weight: 500;
+   font-size: 1.1vmax; 
+}
+.navlinks:hover{
+    color: orangered;
+}

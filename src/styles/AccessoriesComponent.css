@@ -1,0 +1,9 @@
+.Hotaccessories{
+display: flex;
+}  
+.Hotaccessories div:last-child{
+    display: flex;
+} 
+.Hotaccessories img:hover{
+    box-shadow: 6px 6px 15px black;
+}

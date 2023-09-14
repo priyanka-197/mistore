@@ -1,0 +1,18 @@
+.starProudct{
+ display: flex;   
+ align-items: center;
+ justify-content: center;
+ margin: 1vmax auto;
+}
+.starProudct div:last-child{
+  display: flex;
+  flex-wrap: wrap;
+  width: 46%;
+}
+.starProudct img{
+    
+    transition: 0.6s;
+}
+.starProudct img:hover{
+box-shadow: 6px 6px 15px rgb(21, 20, 20);
+}

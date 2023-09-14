@@ -1,0 +1,20 @@
+.HotItemcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(249, 249, 245, 0.874);
+    width: 31%;
+    cursor: pointer;
+}
+.HotItemcard img{
+    width: 70%;
+}
+.HotItemcard:hover{
+    box-shadow: 6px 6px 15px black;
+    transform: translateY(-0.4vmax);
+}
+.HotItemcard span{
+    margin: -1vmax 0 1vmax 0;
+    color: orangered;
+
+}
